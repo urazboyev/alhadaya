@@ -1,0 +1,118 @@
+.logo-default{
+	height: 84px !important;
+}
+.pc-off{
+	display: none;
+}
+.bx-wrapper{
+	border: none !important;
+}
+a{
+	color: white;
+}
+.slides li{
+	margin-left: 5px;
+}
+.bx-wrapper .bx-caption{
+	text-align: center;
+}
+.bx-wrapper .bx-controls-direction a{
+	z-index: 1 !important;
+}
+.popup_vk {
+	border: solid 1px black;
+	padding: 10px;
+	background-color: white;
+	width:100%;
+	margin-top:15%;
+}
+.border_radius_class {
+	border-radius: 10px;  
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;  
+}
+
+.btn_close {
+    padding: 3%;
+    background-color: rgb(249, 72, 11);
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+}
+
+.phone-pc{
+	background-color: #3E3E3E;
+    color: #FFF;
+    width: 22px;
+    height: 19px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px !important;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    left: 10px;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.btn_group {
+	width: 30%;
+}
+
+.slider-bole{
+	margin-top: -220px
+}
+
+#vk_groups_popup {
+	margin: 0 auto;
+}
+
+@media (max-width:600px){
+	.navbar-brand{
+		height: 40px;
+	}
+	.slider-bole{
+	margin-top: -40px
+}
+	.logo-default{
+		width: 55px;
+		height: 42px !important;
+		margin: auto;
+		position: relative;
+		left: 135px;
+	}
+	.bx-wrapper{
+	border: 0 0 5px #ccc;
+	}
+	.mobile-off{
+		display: none;
+	}
+	.mobile-on{
+		display: block;
+	}
+	.mobile-title-form{
+		text-align: center;
+		font-size: 20px;
+	}
+	.mobile-text-form{
+		text-align: center;
+		line-height: 18px;
+		letter-spacing: 1px;
+	}
+	.mobile-vibe{
+	position: relative;
+    left: 35px;
+	}
+	.mobile-vibe-ru{
+	position: relative;
+    left: 15px;	
+	}
+	.img-footer {
+    margin-top: -13px !important;}
+}
